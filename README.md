@@ -6,6 +6,9 @@
 - Python 3.7+
 - requests
 - beautifulsoup4
+- pymorphy2
+- pymorphy2-dicts-ru
+
 
 ## Установка зависимостей
 
@@ -15,7 +18,7 @@ pip install -r requirements.txt
 
 ## Использование
 
-Запустите краулер:
+**Запустите краулер:**
 
 ```bash
 python3 web_crawler.py
@@ -27,7 +30,7 @@ python3 web_crawler.py
 3. Сохранит страницы в директорию `crawled_pages/`
 4. Создаст файл `crawled_pages/index.txt` с индексом
 
-Запустите tokenizer:
+**Запустите tokenizer:**
 ```bash
 python3 tokenizer.py
 ```
