@@ -18,7 +18,7 @@ pip install -r requirements.txt
 Запустите краулер:
 
 ```bash
-python web_crawler.py
+python3 web_crawler.py
 ```
 
 Краулер автоматически:
@@ -26,6 +26,12 @@ python web_crawler.py
 2. Скачает содержимое каждой страницы с HTML разметкой
 3. Сохранит страницы в директорию `crawled_pages/`
 4. Создаст файл `crawled_pages/index.txt` с индексом
+
+Запустите tokenizer:
+```bash
+python3 tokenizer.py
+```
+Токенайзер создаст файлы с токенами и леммами, где индекс будет соответствовать файлу из crawled_pages
 
 ## Архивация результатов
 
