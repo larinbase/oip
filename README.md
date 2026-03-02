@@ -8,6 +8,7 @@
 - beautifulsoup4
 - pymorphy2
 - pymorphy2-dicts-ru
+- flask
 
 
 ## Установка зависимостей
@@ -53,6 +54,17 @@ python3 boolean_search.py
 python3 tfidf.py
 ```
 TF-IDF вычисляет важность слов в документах.
+
+### 5) Поисковая система на основе векторного поиска
+```bash
+python3 vector_search.py
+```
+
+### 6) Демо Web-приложение
+```bash
+python3 app.py
+```
+Web-приложение для демонстрации векторного поиска.
 
 
 ## Архивация результатов
